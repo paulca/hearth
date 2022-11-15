@@ -1,0 +1,101 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+
+import divider from "../images/divider.svg"
+import hearthHeader from "../images/hearth-header.svg"
+import smallRule from "../images/small-rule.svg"
+
+---
+
+<Layout title="Hearth">
+	<main>
+		<h1>Hearth</h1>
+		<p>~ A modest gathering ~</p>
+		<p>December 9–11, 2022</p>
+		<p>Glin Castle, Co. Limerick</p>
+
+		<img src={divider} class="header">
+
+		<div class="details">
+			<p>Join us for 2 nights of relaxing "by the hearth", dining together, enjoying the festive spirit, and sharing stories.</p>
+
+			<p>With only 15 rooms, this will be an intimate affair. Families welcome! Bring yourself, your experience, and an open mind.</p>
+		</div>
+
+		<div class="register">
+			<img src={smallRule}>
+			<tito-button
+	      event="hearth/2022-12"
+	    >
+			Register
+			</tito-button>
+			<img src={smallRule}>
+		</div>
+
+		<footer>
+			Hosted by <a href="https://twitter.com/davidcoallier">David</a> & <a href="https://twitter.com/paulca">Paul</a>.
+		</footer>
+	</main>
+</Layout>
+
+<style is:global>
+	tito-button {
+		display: flex;
+		cursor: pointer;
+	}
+	.tito-widget-button {
+		background-color: inherit;
+		border: 2px solid #574d6a;
+		border-radius: 5px;
+		padding: 1rem;
+		cursor: pointer;
+		width: 20ch;
+	}
+	.tito-widget-button:hover {
+		border: 2px solid #574d6a;
+		border-radius: 5px;
+		padding: 1rem;
+		background-color: #574d6a;
+		color: #DFD1B9;
+	}
+</style>
+<style>
+	main {
+		margin: auto;
+		text-align: center;
+		font-size: 4rem;
+		color: #574d6a;
+		font-weight: 100;
+	}
+	img {
+		width: 20ch;
+	}
+	p {
+		margin: 1rem;
+	}
+	.details p {
+		font-size: 2rem;
+		width: 35ch;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.register {
+		display: inline-flex;
+			gap: 1rem;
+		margin: auto;
+		min-width: 8ch;
+		max-width: 10ch;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.register img {
+		width: 8ch;
+	}
+
+	footer {
+		margin: 2rem;
+		font-size: 1.5rem;
+	}
+</style>
