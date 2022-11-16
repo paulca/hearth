@@ -23,7 +23,6 @@ const { title } = Astro.props;
 <style is:global>
 	html {
 		font-family: system-ui, sans-serif;
-		background-color: #DFD1B9;
 		background-image: url('/src/images/bg-pattern.png');
 	}
 	body {
@@ -32,5 +31,8 @@ const { title } = Astro.props;
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
 			Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+	.hidden {
+		display: none;
 	}
 </style>

@@ -10,10 +10,14 @@ import smallRule from "../images/small-rule.svg"
 
 <Layout title="HEARTH">
 	<main>
-		<h1>HEARTH</h1>
-		<p>~ A modest gathering ~</p>
-		<p>December 9–11, 2022</p>
-		<p>Glin Castle, Co. Limerick</p>
+		<img alt="Hearth" src={hearthHeader} >
+		<h1 class="hidden">HEARTH</h1>
+
+		<div class="headlines">
+			<p><strong>Hearth</strong> is a <em>modest gathering</em></p>
+			<p><strong>Happening</strong> December 9–11, 2022</p>
+			<p><strong>In</strong> Glin Castle, Co. Limerick</p>
+		</div>
 
 		<img src={divider} class="header">
 
@@ -57,7 +61,7 @@ import smallRule from "../images/small-rule.svg"
 		border-radius: 5px;
 		padding: 1rem;
 		background-color: #574d6a;
-		color: #DFD1B9;
+		color: #000;
 	}
 </style>
 <style>
@@ -65,8 +69,14 @@ import smallRule from "../images/small-rule.svg"
 		margin: auto;
 		text-align: center;
 		font-size: 4rem;
-		color: #574d6a;
+		color: #000;
 		font-weight: 100;
+	}
+	.headlines {
+		font-size: 2rem;
+		margin: auto;
+		text-align: left;
+		width: 28ch;
 	}
 	img {
 		width: 20ch;

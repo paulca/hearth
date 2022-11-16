@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 624 395" style="enable-background:new 0 0 624 395;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF841F;}
+	.st1{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FF841F;stroke-width:10;stroke-miterlimit:10;}
+	.st3{fill:#E2D4BC;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+</style>
+<g id="Layer_2">
+	<polygon class="st0" points="297.16,74 248.26,217 297,217 	"/>
+	<polygon class="st0" points="318.26,75 367.16,218 318.42,218 	"/>
+</g>
+<g id="Layer_1">
+	<g id="JYLQci_00000001652788447269623620000016400610571636254884_">
+		<g>
+			<line class="st1" x1="57" y1="295" x2="58" y2="69"/>
+			<polyline class="st2" points="558,308 558,362 485,313 129,313 58,359 58,307 			"/>
+			<line class="st1" x1="558" y1="70" x2="558" y2="295"/>
+			<polyline class="st2" points="58,56 58,29 558,29 558,57 			"/>
+			<line class="st3" x1="129" y1="180" x2="54" y2="180"/>
+			<line class="st3" x1="129" y1="69" x2="129" y2="295"/>
+			<polyline class="st1" points="297.16,295 297.16,74 223.47,289.5 158,290 158,181 158,74 223.47,74 			"/>
+			<line class="st1" x1="194.62" y1="182" x2="157.77" y2="182.25"/>
+			<path class="st1" d="M262,189"/>
+		</g>
+	</g>
+	<line class="st1" x1="297" y1="217" x2="248.26" y2="217"/>
+	<path class="st1" d="M319.31,218"/>
+	<path class="st1" d="M367,218"/>
+	<polyline class="st1" points="319,218 367,218 319.31,74.5 319.31,295 319.31,218 390.47,289.5 426.47,289.5 426.47,75.25 	"/>
+	<line class="st1" x1="390.47" y1="75.5" x2="462.47" y2="75"/>
+	<line class="st1" x1="485" y1="70" x2="485.47" y2="295"/>
+	<line class="st1" x1="558" y1="183" x2="485.47" y2="182.75"/>
+	<path class="st1" d="M511,365"/>
+</g>
+</svg>
