@@ -2,110 +2,54 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 
-import divider from "../images/divider.svg"
+import bottomRule from "../images/bottom-rule.svg"
+import topRule from "../images/top-rule.svg"
 import hearthHeader from "../images/hearth-header.svg"
 import smallRule from "../images/small-rule.svg"
 
 ---
 
 <Layout title="HEARTH">
-	<main>
-		<img alt="Hearth" src={hearthHeader} >
-		<h1 class="hidden">HEARTH</h1>
-
-		<div class="headlines">
-			<p><strong>Hearth</strong> is a <em>modest gathering</em></p>
-			<p><strong>Happening</strong> December 9–11, 2022</p>
-			<p><strong>In</strong> Glin Castle, Co. Limerick</p>
+	<main class="md:grid grid-cols-1 md:grid-cols-3 md:p-4 text-xl md:gap-4">
+		<div class="p-4 md:p-0 col-span-2">
+			<img alt="Hearth" src={hearthHeader} >
 		</div>
-
-		<img src={divider} class="header">
-
-		<div class="details">
+		<div class="bg-white p-4 flex flex-col items-center justify-center">
+			<h1 class="text-[#ff851f] text-xl">HEARTH</h1>
+			<p>a <em>modest gathering</em></p>
+			<p><strong>Happening</strong> December 9–11, 2022</p>
+			<p><a href="https://www.glin-castle.com/" target="_new" class="hover:underline text-[#ff851f]">Glin Castle</a>, Co. Limerick</p>
+		</div>
+		<div class="p-4 flex flex-col items-center justify-center">
 			<p>Join us for 2 nights of relaxing "by the hearth", dining together, enjoying the festive spirit, and sharing stories.</p>
-
+		</div>
+		<div class="bg-white p-4 flex flex-col h-64 min-h-full items-center justify-center">
 			<p>With only 15 rooms, this will be an intimate affair. Families welcome! Bring yourself, your experience, and an open mind.</p>
 		</div>
 
-		<div class="register">
-			<img src={smallRule}>
-			<tito-button
-	      event="hearth/2022-12"
-	    >
+    <a class="m-4 md:m-0 border-4 border-[#ff851f] h-64 min-h-full p-4 flex flex-col items-center justify-center hover:bg-[#ff851f] hover:text-white cursor-pointer" href="#/tito/hearth/2022-12/en/registrations/new" class="border p-4 hover:text-white cursor-pointer">
 			Register
-			</tito-button>
-			<img src={smallRule}>
+		</a>
+	</main>
+	<div class="sticky top-0 right-0 bottom-0 left-0">
+		
+	</div>
+	<main class="m-[40px] p-[40px] md:p-[80px] md:m-[80px] bg-white relative bg-opacity-95 text-center">
+
+		<div class="headlines">
+			
+		</div>
+
+		<div class="register">
+		
+			
 		</div>
 
 		<footer>
-			Hosted by <a href="https://twitter.com/davidcoallier">David</a> & <a href="https://twitter.com/paulca">Paul</a>.
+			Hosted by
+			<a class="text-blue-500 hover:underline" href="https://twitter.com/davidcoallier">David</a> &
+			<a class="text-blue-500 hover:underline" href="https://twitter.com/paulca">Paul</a>.
 		</footer>
 	</main>
 </Layout>
 
-<style is:global>
-	tito-button {
-		display: flex;
-		cursor: pointer;
-	}
-	.tito-widget-button {
-		background-color: inherit;
-		border: 2px solid #574d6a;
-		border-radius: 5px;
-		padding: 1rem;
-		cursor: pointer;
-		width: 20ch;
-	}
-	.tito-widget-button:hover {
-		border: 2px solid #574d6a;
-		border-radius: 5px;
-		padding: 1rem;
-		background-color: #574d6a;
-		color: #000;
-	}
-</style>
-<style>
-	main {
-		margin: auto;
-		text-align: center;
-		font-size: 4rem;
-		color: #000;
-		font-weight: 100;
-	}
-	.headlines {
-		font-size: 2rem;
-		margin: auto;
-		text-align: left;
-		width: 28ch;
-	}
-	img {
-		width: 20ch;
-	}
-	p {
-		margin: 1rem;
-	}
-	.details p {
-		font-size: 2rem;
-		width: 35ch;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.register {
-		display: inline-flex;
-			gap: 1rem;
-		margin: auto;
-		min-width: 8ch;
-		max-width: 10ch;
-		justify-content: center;
-		text-align: center;
-	}
-
-	.register img {
-		width: 8ch;
-	}
-
-	footer {
-		margin: 2rem;
-		font-size: 1.5rem;
-	}
-</style>
