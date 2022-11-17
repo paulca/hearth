@@ -4,9 +4,8 @@
 	 viewBox="0 0 510 348" style="enable-background:new 0 0 510 348;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FF841F;}
-	.st1{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#FF841F;stroke-width:10;stroke-miterlimit:10;}
-	.st3{fill:#E2D4BC;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st1{fill:#E2D4BC;}
+	.st2{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
 </style>
 <g id="Layer_2">
 	<polygon class="st0" points="242.16,50 193.26,193 242,193 	"/>
@@ -15,24 +14,46 @@
 <g id="Layer_1">
 	<g id="JYLQci_00000083767892135060926990000001235789865648543905_">
 		<g>
-			<line class="st1" x1="5" y1="271" x2="5" y2="45"/>
-			<polyline class="st2" points="505,284 505,338 432,289 76,289 5,338 5,283 			"/>
-			<line class="st1" x1="505" y1="46" x2="505" y2="271"/>
-			<polyline class="st2" points="5,32 5,5 505,5 505,33 			"/>
-			<line class="st3" x1="76" y1="156" x2="1" y2="156"/>
-			<line class="st3" x1="76" y1="45" x2="76" y2="271"/>
-			<polyline class="st1" points="244.16,271 244.16,50 170.47,265.5 105,266 105,157 105,50 170.47,50 			"/>
-			<line class="st1" x1="141.62" y1="158" x2="104.77" y2="158.25"/>
-			<path class="st1" d="M209,165"/>
+			<g>
+				<rect y="45" width="10" height="226"/>
+			</g>
+			<g>
+				<polygon class="st0" points="0,347.53 0,283 10,283 10,328.47 74.44,284 433.52,284 500,328.62 500,284 510,284 510,347.38 
+					430.48,294 77.56,294 				"/>
+			</g>
+			<g>
+				<rect x="500" y="46" width="10" height="225"/>
+			</g>
+			<g>
+				<polygon class="st0" points="510,33 500,33 500,10 10,10 10,32 0,32 0,0 510,0 				"/>
+			</g>
+			<g>
+				<line class="st1" x1="76" y1="156" x2="1" y2="156"/>
+				<rect x="1" y="151" width="75" height="10"/>
+			</g>
+			<g>
+				<line class="st1" x1="76" y1="45" x2="76" y2="271"/>
+				<rect x="71" y="45" width="10" height="226"/>
+			</g>
+			<g>
+				<polygon points="100,271.04 100,45 170.47,45 170.47,55 110,55 110,260.96 166.88,260.53 249.16,19.93 249.16,271 239.16,271 
+					239.16,80.07 174.05,270.47 				"/>
+			</g>
+			<g>
+				<rect x="104.77" y="153.12" transform="matrix(1 -6.738128e-03 6.738128e-03 1 -1.0627 0.8337)" width="36.85" height="10"/>
+			</g>
+			<g>
+				<path class="st2" d="M209,165"/>
+			</g>
 		</g>
 	</g>
-	<line class="st1" x1="242" y1="193" x2="193.26" y2="193"/>
-	<path class="st1" d="M264.31,194"/>
-	<path class="st1" d="M312,194"/>
-	<polyline class="st1" points="264,194 312,194 264.31,50.5 264.31,271 264.31,194 335.47,265.5 371.47,265.5 371.47,51.25 	"/>
-	<line class="st1" x1="335.47" y1="51.5" x2="407.47" y2="51"/>
-	<line class="st1" x1="430" y1="46" x2="430.47" y2="271"/>
-	<line class="st1" x1="503" y1="159" x2="430.47" y2="158.75"/>
-	<path class="st1" d="M456,341"/>
+	<line class="st2" x1="242" y1="193" x2="193.26" y2="193"/>
+	<path class="st2" d="M264.31,194"/>
+	<path class="st2" d="M312,194"/>
+	<polyline class="st2" points="264,194 312,194 264.31,50.5 264.31,271 264.31,194 335.47,265.5 371.47,265.5 371.47,51.25 	"/>
+	<line class="st2" x1="335.47" y1="51.5" x2="407.47" y2="51"/>
+	<line class="st2" x1="430" y1="46" x2="430.47" y2="271"/>
+	<line class="st2" x1="503" y1="159" x2="430.47" y2="158.75"/>
+	<path class="st2" d="M456,341"/>
 </g>
 </svg>
