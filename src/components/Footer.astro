@@ -1,0 +1,13 @@
+---
+import Fire from '../components/Fire.astro';
+---
+
+<footer class="p-4 text-center text-gray-400 flex flex-col items-center justify-center gap-4">
+  {(Astro.url.pathname != '/') && <a class="text-blue-500" href="/">Home</a>}
+  {(Astro.url.pathname != '/') && <span class="text-gray-300"><Fire /></span>}
+  <span>
+    From
+    <a href="https://twitter.com/davidcoallier">David</a> &
+    <a href="https://twitter.com/paulca">Paul</a>.
+  </span>
+</footer>
