@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import hearthHeader from "../images/hearth-header.svg"
+---
+
+<Layout title="HEARTH 2022-12">
+  <main class="p-4 space-y-4">
+    <div class="text-center">
+      <a href="/"><img class="md:w-[80ch]" alt="Hearth" src={hearthHeader} ></a>
+      <p class="-mt-6 text-xl text-gray-800">What?</p>
+    </div>
+
+    <div class="text-justify text-lg space-y-4 text-gray-500 prose">
+      <dl>
+        <dt class="font-bold">What’s the point of Hearth?</dt>
+        <dd>
+          <p>
+            Most events are designed around relationships. ”Networking” to use a term borrowed from technology. Just like TCP/IP, networking can end up being transactional, seeking to extract opportunities from each other.
+          </p>
+
+          <p>
+            An event like hearth is <em>all</em> about relationships, but rather than being transaction, surface-level, the goal is to build deeper relationships. Rather than exploring each other’s “what” (who are you? what do you do?) we explore the “why”: what is your purpose? why do you do what you do?
+          </p>
+        </dd>
+      </dl>
+
+
+      <p class="flex items-center">
+        <span class="flex-1">Sound like your thing?</span>
+        <a class="font-bold border border-[4px] p-1 border-[#ff851f] text-[#ff851f] hover:bg-[#ff851f] hover:text-white cursor-pointer" href="#/tito/hearth/2022-12/en/registrations/new">
+          Register now
+        </a>
+      </p>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  dt { @apply text-xl }
+  p { margin-bottom: 1rem; }
+</style>
